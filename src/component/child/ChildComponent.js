@@ -30,7 +30,6 @@ export default class ChildComponent extends React.Component {
         let countryList = [];
         const { countries } = this.props;
         countryList = countries.filter(country => country.includes(searchedCountry));
-        console.log("COUNTR", countryList);
         this.setState({ countries: countryList, searchedText: searchedCountry });
     };
 
