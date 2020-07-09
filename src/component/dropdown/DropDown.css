@@ -1,0 +1,28 @@
+.dropDownStyle {
+  margin-top: 1%;
+}
+.ccmDropdownStyle {
+  margin-top: 2%;
+}
+.dropDownStyle > div:first-child {
+  position: relative;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+
+.dropDownStyle > div:first-child > div:first-child {
+  padding-left: 0;
+  border: none;
+  border-bottom: 1px solid var(--color-mapping-header-border);
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.dropDownStyle > div:first-child > div:first-child > div:first-child {
+  padding-left: 0;
+  margin-top: -10px;
+}
+
+.dropDownStyle > div:first-child > div:first-child > div:nth-child(2) > span {
+  background-color: transparent;
+}
