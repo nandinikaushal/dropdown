@@ -7,7 +7,7 @@ export default class ParentComponent extends React.Component {
         super();
         this.state = {
             accessGranted: false,
-            countries: ['India', 'Singapore', 'China', 'America', 'Australia', 'Kenya', 'South Afirca', 'Iran', 'Canada']
+            countries: ['India', 'Singapore', 'China', 'America', 'Australia', 'Kenya', 'South Afirca', 'Iraq', 'Canada']
         }
     }
 
